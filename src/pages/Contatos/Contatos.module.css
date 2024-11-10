@@ -1,0 +1,52 @@
+.contatos{
+    width: 95%;
+    min-height: 50vh;
+    color: var(--soft-white);
+    font-size: 40px;
+    display: flex;
+    margin-left: 150px;
+    font-weight: bold;
+    margin-top: 300px;
+    text-decoration: none;
+    
+
+}
+
+.contatos a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 30px;
+    padding: 10px 20px;
+    
+}
+.contatos a:hover{
+    background-color: var(--red);
+    color: aliceblue;
+}
+.contatos span{
+    font-size: 80px;
+    font-weight: bold;
+    
+ 
+}
+.contatos h1{
+    font-size: 40px;
+    
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 170px;
+    right: 150px; 
+    
+    font-size: 50px;
+    
+
+}
+
+.icone img{
+    margin-top: 5px;
+    color: aliceblue;
+}

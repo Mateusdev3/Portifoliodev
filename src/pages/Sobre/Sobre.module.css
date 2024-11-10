@@ -1,0 +1,95 @@
+.sobre{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+.sobre h1{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.bio{
+    
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-around;
+    margin-right: 500px;
+}
+.textos{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.textos h2{
+    font-size: 40px;
+}
+.avatar{
+    border-radius: 1000px;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 40px;
+    justify-content: center;
+    border: 5px solid var(--red);
+}
+.techs{
+     margin-top: 60px;
+     font-size: 30px;
+     color: aliceblue;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+.icons{
+    height: 10vh;
+}
+.icons img{
+    height: 80px;
+    margin-left: 80px;
+}
+.maquina{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.fotos{
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-around;  
+}
+.fotos img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+    width: 20%;
+    min-width: 40vh;
+    border-radius: 1000px;
+    border: 5px solid var(--red);
+}
+.maquinatxt{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.maquinatxt h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.maquinatxt span{
+    font-weight: bold;
+}
+
+
+
