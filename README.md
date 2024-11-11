@@ -1,8 +1,26 @@
-# React + Vite
+# Portfólio de Mateus Esteves
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portfólio pessoal, criado para apresentar minhas habilidades e projetos como desenvolvedor. Construído utilizando **React** com o **Vite**, este site destaca meus conhecimentos técnicos, projetos realizados, certificações, e possui uma página "Sobre" com minha apresentação profissional.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **Vite**: Ferramenta de build que permite desenvolvimento rápido e eficiente.
+- **JSX**: Utilizado para a construção das páginas.
+- **CSS Modules** (ou **Styled Components**, se aplicável): Para o estilização dos componentes.
+- **React Router**: Navegação entre páginas do portfólio.
+
+## Estrutura de Pastas
+
+A estrutura de pastas segue o padrão do React e do Vite:
+
+```plaintext
+├── public
+│   └── assets             # Arquivos estáticos, como imagens e ícones
+├── src
+│   ├── components         # Componentes reutilizáveis
+│   ├── pages              # Páginas do portfólio
+│   ├── App.jsx            # Componente principal
+│   ├── main.jsx           # Ponto de entrada do React
+│   └── styles             # Estilos globais e específicos dos componentes
+└── vite.config.js         # Configurações do Vite
